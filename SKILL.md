@@ -17,7 +17,7 @@ argument-hint: 'Optional: specific area to focus on, e.g. "architecture only", "
 
 # Acquire Codebase Knowledge
 
-Produces seven populated documents in `docs/codebase/` covering everything needed to work effectively on the project. Only document what is verifiable from files or terminal output — never infer or assume.
+Produces eight populated documents in `docs/codebase/` covering everything needed to work effectively on the project. Only document what is verifiable from files or terminal output — never infer or assume.
 
 ## Output Contract (Required)
 
@@ -36,7 +36,7 @@ Copy and track this checklist:
 ```
 - [ ] Phase 1: Run scan, read intent documents
 - [ ] Phase 2: Investigate each documentation area
-- [ ] Phase 3: Populate all seven docs in docs/codebase/
+- [ ] Phase 3: Populate all eight docs in docs/codebase/
 - [ ] Phase 4: Validate docs, present findings, resolve all [ASK USER] items
 ```
 
@@ -47,7 +47,7 @@ If the user supplies a focus area (for example: "architecture only" or "testing 
 1. Always run Phase 1 in full.
 2. Fully complete focus-area documents first.
 3. For non-focus documents not yet analyzed, keep required sections present and mark unknowns as `[TODO]`.
-4. Still run the Phase 4 validation loop on all seven documents before final output.
+4. Still run the Phase 4 validation loop on all eight documents before final output.
 
 ### Phase 1: Scan and Read Intent
 
@@ -67,7 +67,7 @@ If the user supplies a focus area (for example: "architecture only" or "testing 
 
 ### Phase 2: Investigate
 
-Use the scan output to answer questions for each of the seven templates. Load [`references/inquiry-checkpoints.md`](references/inquiry-checkpoints.md) for the full per-template question list.
+Use the scan output to answer questions for each of the eight templates. Load [`references/inquiry-checkpoints.md`](references/inquiry-checkpoints.md) for the full per-template question list.
 
 If the stack is ambiguous (multiple manifest files, unfamiliar file types, no `package.json`), load [`references/stack-detection.md`](references/stack-detection.md).
 
@@ -95,9 +95,9 @@ Run this mandatory validation loop before finalizing:
 3. If any required section is missing or unsupported:
   - Fix the document.
   - Re-run validation.
-4. Repeat until all seven docs pass.
+4. Repeat until all eight docs pass.
 
-Then present a summary of all seven documents, list every `[ASK USER]` item as a numbered question, and highlight any Intent vs. Reality divergences from Phase 1.
+Then present a summary of all eight documents, list every `[ASK USER]` item as a numbered question, and highlight any Intent vs. Reality divergences from Phase 1.
 
 Validation pass criteria:
 
