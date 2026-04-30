@@ -1,0 +1,7 @@
+{
+  "name": "project-analysis",
+  "version": "1.5.0",
+  "description": "Produces comprehensive codebase documentation (8 docs covering stack, structure, architecture, conventions, integrations, testing, concerns, and workflow blueprints).",
+  "author": "awesome-copilot",
+  "license": "MIT"
+}
